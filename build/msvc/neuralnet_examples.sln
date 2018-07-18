@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "neuralnet_examples", "neuralnet_examples.vcxproj", "{8FCCD5C6-97A2-4CBB-AF1A-F48230901353}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F4C0F6C-EF92-DF47-AE6C-04F9BD24AC5E} = {1F4C0F6C-EF92-DF47-AE6C-04F9BD24AC5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCCD5C6-97A2-4CBB-AF1A-F48230901353}.Debug|x64.ActiveCfg = Debug|x64
+		{8FCCD5C6-97A2-4CBB-AF1A-F48230901353}.Debug|x64.Build.0 = Debug|x64
+		{8FCCD5C6-97A2-4CBB-AF1A-F48230901353}.Release|x64.ActiveCfg = Release|x64
+		{8FCCD5C6-97A2-4CBB-AF1A-F48230901353}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
