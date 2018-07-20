@@ -27,12 +27,13 @@ SOFTWARE.
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <malloc.h>
 //----------------------------------------------------------------------------
 
 // Transfer functions and their derivatives
 inline float sigmoid( float fValue )			{ return 1.0f / ( 1.0f + expf( -fValue ) ); }
 inline float sigmoidDerivative( float fValue )	{ return fValue * ( 1.0f - fValue ); }
-inline float relu( float fValue )				{ return fmax( 0.0f, fValue ); }
+inline float relu( float fValue )				{ return fmaxf( 0.0f, fValue ); }
 inline float reluDerivative( float fValue )		{ return fValue > 0.0f ? 1.0f : 0.0f; }
 inline float softplus( float fValue )			{ return logf( 1.0f + expf( fValue )  ); }
 inline float softplusDerivative( float fValue )	{ return sigmoid( fValue ); }
