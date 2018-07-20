@@ -26,6 +26,10 @@
 *.a
 *.lib
 
+# Debug
+*.db
+*.opendb
+
 # Executables
 *.exe
 *.out
@@ -35,3 +39,4 @@
 bin
 build/osx/build
 xcuserdata
+x64
