@@ -27,7 +27,11 @@ SOFTWARE.
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
+#if defined(WIN32) || defined(__WIN32) || defined(__WIN32__) || defined(WIN64)
+    #include <malloc.h>
+#else
+    #include <alloca.h>
+#endif
 //----------------------------------------------------------------------------
 
 // Transfer functions and their derivatives
